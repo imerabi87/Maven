@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3759" started-at="2018-12-05T00:32:48Z" finished-at="2018-12-05T00:32:51Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="3759" started-at="2018-12-05T00:32:48Z" finished-at="2018-12-05T00:32:51Z">
+      <class name="com.Maven.classes1.BaseClass">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Maven.classes1.BaseClass@668bc3d5]" name="setUp" duration-ms="3736" started-at="2018-12-05T00:32:48Z" finished-at="2018-12-05T00:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.Maven.classes1.BaseClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (0)" duration-ms="1" started-at="2018-12-05T00:32:52Z" finished-at="2018-12-05T00:32:52Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="1" started-at="2018-12-05T00:32:52Z" finished-at="2018-12-05T00:32:52Z">
+      <class name="com.Maven.classes1.MavenTest">
+        <test-method status="PASS" signature="hello()[pri:0, instance:com.Maven.classes1.MavenTest@327471b5]" name="hello" duration-ms="0" started-at="2018-12-05T00:32:52Z" finished-at="2018-12-05T00:32:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hello -->
+      </class> <!-- com.Maven.classes1.MavenTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+</testng-results>
