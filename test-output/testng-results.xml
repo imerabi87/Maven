@@ -1,17 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3036" started-at="2018-12-05T00:50:24Z" finished-at="2018-12-05T00:50:27Z">
+  <suite name="Suite" duration-ms="3745" started-at="2018-12-29T02:52:04Z" finished-at="2018-12-29T02:52:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3036" started-at="2018-12-05T00:50:24Z" finished-at="2018-12-05T00:50:27Z">
-      <class name="com.Maven.Class2.baseclassHtml">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.Maven.Class2.baseclassHtml@ea1a8d5]" name="setup" duration-ms="3003" started-at="2018-12-05T00:50:24Z" finished-at="2018-12-05T00:50:27Z">
+    <test name="Test" duration-ms="3745" started-at="2018-12-29T02:52:04Z" finished-at="2018-12-29T02:52:07Z">
+      <class name="com.Maven.classes1.TestNGClassOne">
+        <test-method status="PASS" signature="BeforMethod()[pri:0, instance:com.Maven.classes1.TestNGClassOne@4abdb505]" name="BeforMethod" is-config="true" duration-ms="1" started-at="2018-12-29T02:52:07Z" finished-at="2018-12-29T02:52:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-      </class> <!-- com.Maven.Class2.baseclassHtml -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- BeforMethod -->
+        <test-method status="PASS" signature="testMethod()[pri:0, instance:com.Maven.classes1.TestNGClassOne@4abdb505]" name="testMethod" duration-ms="0" started-at="2018-12-29T02:52:07Z" finished-at="2018-12-29T02:52:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:com.Maven.classes1.TestNGClassOne@4abdb505]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2018-12-29T02:52:07Z" finished-at="2018-12-29T02:52:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforMethod()[pri:0, instance:com.Maven.classes1.TestNGClassOne@4abdb505]" name="BeforMethod" is-config="true" duration-ms="0" started-at="2018-12-29T02:52:07Z" finished-at="2018-12-29T02:52:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforMethod -->
+        <test-method status="PASS" signature="testMethodTwo()[pri:0, instance:com.Maven.classes1.TestNGClassOne@4abdb505]" name="testMethodTwo" duration-ms="1" started-at="2018-12-29T02:52:07Z" finished-at="2018-12-29T02:52:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodTwo -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:com.Maven.classes1.TestNGClassOne@4abdb505]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2018-12-29T02:52:07Z" finished-at="2018-12-29T02:52:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- com.Maven.classes1.TestNGClassOne -->
+      <class name="com.Maven.classes1.BaseClass">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Maven.classes1.BaseClass@7a9273a8]" name="setUp" duration-ms="3711" started-at="2018-12-29T02:52:04Z" finished-at="2018-12-29T02:52:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.Maven.classes1.BaseClass -->
+      <class name="com.Maven.classes1.MavenTest">
+        <test-method status="PASS" signature="hello()[pri:0, instance:com.Maven.classes1.MavenTest@26a7b76d]" name="hello" duration-ms="2" started-at="2018-12-29T02:52:07Z" finished-at="2018-12-29T02:52:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hello -->
+      </class> <!-- com.Maven.classes1.MavenTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

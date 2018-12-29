@@ -13,7 +13,7 @@ public class BaseClass {
 
 	@Test
 	public void setUp() {
-		System.setProperty("webdriver.chrome.driver", "src\\main\\java\\Driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\Drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		//driver=new HtmlUnitDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
